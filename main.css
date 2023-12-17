@@ -1,0 +1,34 @@
+body{
+    background-color: #151010;
+    color:white;
+    font-family: 'Times New Roman';
+    padding: 24px;
+}
+
+.title{
+    font-size: 28px;
+    color: rgba(248, 216, 248, 0.945);
+    text-align: left;
+}
+.list-item {
+    margin-bottom: 20px;
+    color: #ffff
+}
+input{
+    height: 18px;
+    background-color: transparent;
+    color: whitesmoke;
+    border-color: rgba(248, 216, 248, 0.945);
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 8px;
+}
+.addtask-button{
+    font-size: 16px;
+    padding: 8px;
+    background-color: rgba(252, 216, 249, 0.884);;
+    border-width: 0px;
+    border-radius: 4px;
+    color: rgb(17, 2, 2);
+    font-weight: bold;
+}

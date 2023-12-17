@@ -23,7 +23,7 @@ input{
     font-size: 15px;
     padding: 8px;
 }
-.addtask-button{
+button{
     font-size: 16px;
     padding: 8px;
     background-color: rgba(252, 216, 249, 0.884);;

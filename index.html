@@ -3,7 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="main.css">
-    <script >src = "main.js" </script>
+    <script src = "main.js" > </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale = 1.0" />
     <title>Lista de tarefas</title>
@@ -12,15 +12,17 @@
 <body>
     <div>
         <h1 class = "title" >Tarefas do dia 16 de Dezembro</h1>
-        <ul>
-            <li class = "list-item">Estudar Programação</li>
-            <li class = "list-item">Revisar playlist JavaScript</li>
-            <li class = "list-item" >Desenvolver página web</li>
-        </ul>
+        <ul id="list"> </ul>
     </div>
+    
     <div>
-     <input  type="text" id="task_name" name=" task_name" placeholder="Nova tarefa">
-     <button class="addtask-button">Adicionar nova tarefa</button>
+     <input  
+        type="text" 
+        id="task_name" 
+        name=" task_name" 
+        placeholder="Nova tarefa"
+        >
+        <button onclick="addNewTask()" >Adicionar nova tarefa</button>
     </div>
 
 </body>

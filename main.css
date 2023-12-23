@@ -1,34 +1,46 @@
 body{
-    background-color: #151010;
-    color:white;
-    font-family: 'Times New Roman';
-    padding: 24px;
+    background-color: white;
+    font-family: 'Alta light';
+    padding: 30px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
 }
 
 .title{
-    font-size: 28px;
-    color: rgba(143, 22, 143, 0.945);
-    text-align: left;
+    font-size: 30px;
+    color: #190019;
+    text-align: center;
 }
 .list-item {
     margin-bottom: 20px;
-    color: #ffff
+    color: #ffff;
+    text-align: center;
+}
+
+#list{
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    color: rgb(145, 38, 139);
+    font-weight: 800;
+    text-align: right;
 }
 input{
     height: 18px;
     background-color: transparent;
-    color: whitesmoke;
-    border-color: rgba(248, 216, 248, 0.945);
+    color: rgb(145, 38, 139);
+    border-color: #fff3ff;
     border-radius: 4px;
-    font-size: 15px;
-    padding: 8px;
+    font-size: 18px;
+    padding: 6px;
+    text-align: center;
 }
 button{
-    font-size: 16px;
+    font-size: 19px;
     padding: 8px;
-    background-color: rgba(252, 216, 249, 0.884);;
+    background-color: rgb(248, 125, 201);
     border-width: 0px;
-    border-radius: 4px;
+    border-radius: 9px;
     color: rgb(17, 2, 2);
     font-weight: bold;
 }

@@ -1,28 +1,27 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
 
 <head>
-    <link rel="stylesheet" href="main.css">
-    <script src = "main.js" > </script>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale = 1.0" />
-    <title>Lista de tarefas</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="main.css">
+    <script src="main.js"></script>
+    <title>To-do list</title>
 </head>
-
+    
 <body>
     <div>
-        <h1 class = "title" >Tarefas do dia 16 de Dezembro</h1>
-        <ul id="list"> </ul>
+        <h1 class = "title">Full list</h1>
+        <ul id="list"></ul>
     </div>
-    
+
     <div>
-     <input  
-        type="text" 
-        id="task_name" 
-        name=" task_name" 
-        placeholder="Nova tarefa"
-        >
-        <button onclick="addNewTask()" >Adicionar nova tarefa</button>
+       <input
+       placeholder="Add your new todo"
+       type="text"
+       id="task_name"
+       >
+       <button onclick ="addNewTask()"> + </button>
     </div>
 
 </body>

@@ -1,0 +1,48 @@
+body{
+ background-color: rgb(243, 201, 250);
+}
+
+.to-do{  
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+    padding: 10px;
+    background-color: rgb(250, 240, 241);
+    border-radius: 4px;
+}
+.header{
+    color:palevioletred;
+}
+
+.full_list{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+#new_task{
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    color: rgb(145, 38, 139);
+    font-weight: 400;
+    text-align: center;
+}
+.task_button{
+    display: flex;
+    margin-left: 5px;
+    padding: 12px;
+    border-radius: 5px;
+    color: white;
+    background-color: palevioletred;
+    border: none;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+}
+
+
+
+ 

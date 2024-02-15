@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-     <a href="dudarocha81.github.io/Lista-de-tarefas/">📱 Visit this Project</a>
+     <a href="https://dudarocha81.github.io/Lista-de-tarefas/">📱 Visit this Project</a>
 </p>
 
 <h2 id="technologies">💻 Technologies</h2>
